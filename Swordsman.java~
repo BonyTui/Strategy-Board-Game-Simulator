@@ -1,0 +1,11 @@
+public class Swordsman extends Units{
+  private String unitType = "Swordsman";
+  
+  public Swordsman(){
+
+  }
+  
+  public String showUnitType(){
+      return unitType;
+    }
+}
